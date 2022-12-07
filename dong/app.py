@@ -2,7 +2,7 @@ from flask import Flask, redirect,render_template,request
 from pymongo import MongoClient
 
 app = Flask(__name__)
-client = MongoClient('mongodb+srv://cora9448:pippy0601@cluster0.tydewmu.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://id:pw@cluster0.tydewmu.mongodb.net/?retryWrites=true&w=majority')
 db = client.insertdb
 
 @app.route("/")
